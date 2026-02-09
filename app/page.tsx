@@ -11,6 +11,8 @@ import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { FloatingDecorations } from "@/components/FloatingDecorations";
 
+import { SoulVision } from "@/components/SoulVision";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-petal-pink selection:bg-sakura/30 font-sans text-berry overflow-x-hidden">
@@ -19,6 +21,7 @@ export default function Home() {
       <main className="relative z-10 pt-20">
         <Hero />
         <Experience />
+        <SoulVision />
         <Skills />
         <Projects />
         <Achievements />

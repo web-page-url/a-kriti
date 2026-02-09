@@ -39,7 +39,87 @@ export const Experience = () => {
                         </div>
                     </motion.div>
 
-                    <div className="lg:w-2/3 space-y-12">
+                    <div className="lg:w-2/3 space-y-20">
+                        {/* SBT Biz Growth Partnership */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            className="relative group"
+                        >
+                            <div className="absolute -left-12 top-0 bottom-0 w-1 bg-gradient-to-b from-neon-pink via-neon-purple to-transparent hidden md:block" />
+                            <div className="bg-white/80 backdrop-blur-xl p-10 rounded-[3rem] border border-white/60 cute-shadow hover:scale-[1.02] transition-all relative overflow-hidden group">
+                                <div className="absolute top-0 right-0 p-8 opacity-5">
+                                    <Activity className="h-40 w-40 text-neon-pink" />
+                                </div>
+                                <div className="absolute -left-[54px] top-10 h-8 w-8 rounded-full bg-white border-4 border-neon-pink hidden md:flex items-center justify-center neon-glow-pink">
+                                    <Sparkles className="h-4 w-4 text-neon-pink" />
+                                </div>
+                                <div className="flex flex-col md:flex-row justify-between mb-8 gap-4">
+                                    <div>
+                                        <h3 className="font-serif text-3xl font-bold text-berry">SBT Biz Growth Partnership</h3>
+                                        <p className="gradient-text font-black tracking-widest uppercase text-sm">Lead Analyst (EY24)</p>
+                                    </div>
+                                    <div className="px-6 py-2 bg-neon-pink/10 rounded-full border border-neon-pink/20 text-xs font-black text-neon-pink flex items-center gap-2">
+                                        <Heart className="h-3 w-3 fill-neon-pink" /> EY 2024
+                                    </div>
+                                </div>
+                                <ul className="space-y-4">
+                                    {[
+                                        "Led analysis of seasonal impacts on sales with high precision.",
+                                        "Automated data updates using shell/batch scripts for efficiency.",
+                                        "Mentored junior team members and bridged cross-functional gaps.",
+                                        "Supported backend operations with optimized SQL & AWS Athena workflows."
+                                    ].map((task, i) => (
+                                        <li key={i} className="flex items-start gap-3 text-lg font-medium text-berry/80">
+                                            <div className="h-2 w-2 rounded-full bg-neon-pink mt-2.5 shrink-0" />
+                                            <span>{task}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </motion.div>
+
+                        {/* Seven & i Holdings */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            className="relative group"
+                        >
+                            <div className="absolute -left-12 top-0 bottom-0 w-1 bg-gradient-to-b from-neon-purple via-neon-pink to-transparent hidden md:block" />
+                            <div className="bg-white/80 backdrop-blur-xl p-10 rounded-[3rem] border border-white/60 cute-shadow hover:scale-[1.02] transition-all relative overflow-hidden group">
+                                <div className="absolute top-0 right-0 p-8 opacity-5">
+                                    <Sparkles className="h-40 w-40 text-neon-purple" />
+                                </div>
+                                <div className="absolute -left-[54px] top-10 h-8 w-8 rounded-full bg-white border-4 border-neon-purple hidden md:flex items-center justify-center shadow-[0_0_10px_rgba(191,0,255,0.3)]">
+                                    <Activity className="h-4 w-4 text-neon-purple" />
+                                </div>
+                                <div className="flex flex-col md:flex-row justify-between mb-8 gap-4">
+                                    <div>
+                                        <h3 className="font-serif text-3xl font-bold text-berry">Seven & i Holdings IT Transformation</h3>
+                                        <p className="text-neon-purple font-black tracking-widest uppercase text-sm">Generative AI Researcher</p>
+                                    </div>
+                                    <div className="px-6 py-2 bg-neon-purple/10 rounded-full border border-neon-purple/20 text-xs font-black text-neon-purple flex items-center gap-2">
+                                        <Activity className="h-3 w-3" /> Strategic Research
+                                    </div>
+                                </div>
+                                <ul className="space-y-4">
+                                    {[
+                                        "Delivered cutting-edge research on generative AI applications.",
+                                        "Conducted risk assessments for future AI adoption strategies.",
+                                        "Provided strategic recommendations for IT transformation roadmaps.",
+                                        "Evaluated AI alignment with industry standards and internal goals."
+                                    ].map((task, i) => (
+                                        <li key={i} className="flex items-start gap-3 text-lg font-medium text-berry/80">
+                                            <div className="h-2 w-2 rounded-full bg-neon-purple mt-2.5 shrink-0" />
+                                            <span>{task}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </motion.div>
+
                         <motion.div
                             initial={{ opacity: 0, y: 30 }}
                             whileInView={{ opacity: 1, y: 0 }}

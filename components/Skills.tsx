@@ -1,19 +1,19 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Terminal, Code2, Database, Globe, Gamepad2, Smartphone, Sparkles } from "lucide-react";
+import { Terminal, Code2, Database, Globe, Activity, Sparkles } from "lucide-react";
 
 const mainSkills = [
     { name: "Python", icon: <Terminal />, color: "from-neon-pink/20 to-sakura/20", neon: "neon-glow-pink" },
-    { name: "C++", icon: <Code2 />, color: "from-neon-purple/20 to-lavender-mist/20", neon: "shadow-[0_0_15px_rgba(191,0,255,0.3)]" },
-    { name: "SQL", icon: <Database />, color: "from-blue-400/20 to-cyan-300/20", neon: "shadow-[0_0_15px_rgba(34,197,254,0.3)]" },
-    { name: "ReactJS", icon: <Globe />, color: "from-rose-blush/20 to-peach-cream/20", neon: "shadow-[0_0_15px_rgba(255,194,209,0.3)]" },
-    { name: "Unity3D", icon: <Gamepad2 />, color: "from-sakura/20 to-rose-blush/20", neon: "neon-glow-pink" },
-    { name: "OpenCV", icon: <Smartphone />, color: "from-peach-cream/20 to-sakura/20", neon: "shadow-[0_0_15px_rgba(255,209,188,0.3)]" }
+    { name: "SQL & Athena", icon: <Database />, color: "from-blue-400/20 to-cyan-300/20", neon: "shadow-[0_0_15px_rgba(34,197,254,0.3)]" },
+    { name: "AWS Cloud", icon: <Globe />, color: "from-orange-400/20 to-yellow-300/20", neon: "shadow-[0_0_15px_rgba(255,165,0,0.3)]" },
+    { name: "Machine Learning", icon: <Activity />, color: "from-green-400/20 to-emerald-300/20", neon: "shadow-[0_0_15px_rgba(16,185,129,0.3)]" },
+    { name: "Generative AI", icon: <Sparkles />, color: "from-neon-purple/20 to-lavender-mist/20", neon: "shadow-[0_0_15px_rgba(191,0,255,0.3)]" },
+    { name: "C++", icon: <Code2 />, color: "from-blue-600/20 to-indigo-400/20", neon: "shadow-[0_0_15px_rgba(37,99,235,0.3)]" }
 ];
 
 const secondarySkills = [
-    "HTML", "CSS", "JS", "Pandas", "NumPy", "Matplotlib", "Jupyter", "MS Excel", "Leadership", "Teamwork", "Problem Solving"
+    "AWS Athena", "DBeaver", "Shell/BAT Scripting", "Automation", "Forecasting", "Data Visualization", "GenAI Research", "Web Development", "Pandas", "NumPy", "Leadership", "Teamwork", "Problem Solving", "Adaptability", "Collaboration"
 ];
 
 export const Skills = () => {
