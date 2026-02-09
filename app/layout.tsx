@@ -17,7 +17,7 @@ const quicksand = Quicksand({
 
 export const metadata: Metadata = {
   title: "Akriti | Data Scientist",
-  description: "Data Scientist from IIT Mandi specializing in Machine Learning, Python and Gen AI. Explore my portfolio Website.",
+  description: "Data Scientist from IIT Mandi specializing in Python, SQL and Gen AI. Explore my portfolio Website.",
   keywords: ["Akriti ", "Data Scientist", "IIT Mandi", "Machine Learning Engineer", "Python Developer", "Portfolio", "Female Coder", "Computer Vision"],
   authors: [{ name: "Akriti " }],
   metadataBase: new URL("https://a-kriti.vercel.app"),
