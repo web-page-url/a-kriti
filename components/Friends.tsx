@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Users, MessagesSquare, Heart, Sparkles, Globe } from "lucide-react";
+import { Users, MessagesSquare, Star, Sparkles, Globe } from "lucide-react";
 
 export const Friends = () => {
     return (
@@ -41,7 +41,7 @@ export const Friends = () => {
                                     <Sparkles className="h-4 w-4" /> Creative Peers
                                 </motion.div>
                                 <motion.div whileHover={{ scale: 1.1 }} className="flex items-center gap-2 px-6 py-2 bg-white rounded-full border border-neon-pink/20 text-xs font-bold text-berry/50">
-                                    <Heart className="h-4 w-4 fill-neon-pink text-neon-pink" /> Mentors & Mentees
+                                    <Star className="h-4 w-4 fill-neon-pink text-neon-pink" /> Mentors & Mentees
                                 </motion.div>
                             </div>
                         </div>

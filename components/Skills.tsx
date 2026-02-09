@@ -63,7 +63,7 @@ export const Skills = () => {
                     {secondarySkills.map((s, i) => (
                         <motion.span
                             key={i}
-                            whileHover={{ scale: 1.1, backgroundColor: "#FF007F", color: "#fff" }}
+                            whileHover={{ scale: 1.1, backgroundColor: "#E11D74", color: "#fff" }}
                             className="px-6 py-3 bg-white/40 backdrop-blur-md rounded-full border border-neon-pink/10 text-xs font-bold uppercase tracking-widest text-berry/60 transition-all cursor-default shadow-sm"
                         >
                             {s}

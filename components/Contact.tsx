@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Github, Coffee, Heart, Send, Globe, Phone, Star } from "lucide-react";
+import { Mail, Linkedin, Github, Coffee, Send, Globe, Phone, Star } from "lucide-react";
 
 export const Contact = () => {
     return (
@@ -45,7 +45,7 @@ export const Contact = () => {
                         ].map((social, i) => (
                             <motion.a
                                 key={i}
-                                whileHover={{ scale: 1.2, backgroundColor: "#fff", borderColor: "#FF007F" }}
+                                whileHover={{ scale: 1.2, backgroundColor: "#fff", borderColor: "#E11D74" }}
                                 href={social.href}
                                 target="_blank"
                                 className="h-20 w-20 rounded-full bg-white/40 backdrop-blur-md flex items-center justify-center text-berry border border-white/60 transition-all cute-shadow"

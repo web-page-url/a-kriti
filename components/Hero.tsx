@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Sparkles, Heart, Github, Linkedin, Mail, Rocket } from "lucide-react";
+import { Sparkles, Github, Linkedin, Mail, Rocket } from "lucide-react";
 
 export const Hero = () => {
     return (
@@ -31,7 +31,7 @@ export const Hero = () => {
                             <span className="gradient-text neon-text-pink">Scientist</span>
                         </h1>
                         <p className="font-serif text-3xl italic text-berry/70 md:text-4xl">
-                            Coding Dreams, One Heartbeat at a Time.
+                            Coding Dreams, One Sparkle at a Time.
                         </p>
                     </div>
                     <p className="max-w-xl text-2xl leading-relaxed font-semibold text-berry/80">
@@ -54,7 +54,7 @@ export const Hero = () => {
                             ].map((item, idx) => (
                                 <motion.a
                                     key={idx}
-                                    whileHover={{ scale: 1.3, color: "#FF007F" }}
+                                    whileHover={{ scale: 1.3, color: "#E11D74" }}
                                     href={item.href}
                                     target="_blank"
                                     className="text-berry/60 transition-all"

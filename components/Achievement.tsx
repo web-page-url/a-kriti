@@ -1,12 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Award, Code2, Lightbulb, Stars, Heart, Sparkles, Activity } from "lucide-react";
+import { Award, Code2, Lightbulb, Stars, Star, Sparkles, Activity } from "lucide-react";
 
 const mainAchievements = [
     { title: "Top Performer GSSOC'21", desc: "Ranked 27th globally in Open Source. Received LoR and Badges! 🏅", icon: <Award className="text-neon-pink" />, color: "bg-neon-pink/5" },
     { title: "5 Star Coder", desc: "Hackerrank 5-Star & 750+ GFG points. Received GFG Merchandise! 🎁", icon: <Code2 className="text-neon-purple" />, color: "bg-neon-purple/5" },
-    { title: "Problem Solver", desc: "Solved 550+ challenges on Leetcode with absolute precision. 🧠", icon: <Heart className="text-sakura" />, color: "bg-sakura/5" },
+    { title: "Problem Solver", desc: "Solved 550+ challenges on Leetcode with absolute precision. 🧠", icon: <Star className="text-sakura" />, color: "bg-sakura/5" },
     { title: "Core Team @ DESIGNUTS", icon: <Lightbulb className="text-sakura" />, desc: "Leading the design club at IIT Mandi with creativity and soul. 🎨", color: "bg-sakura/5" },
     { title: "Game Dev Mentor", icon: <Stars className="text-sparkle-gold" />, desc: "Delivered workshop to 100+ attendees about AR/VR futures. 🎤", color: "bg-sparkle-gold/5" },
     { title: "Exam Invigilator", icon: <Activity className="text-neon-pink" />, desc: "Ensured smooth conduct of NDST 2019 for 200+ students. 📝", color: "bg-neon-pink/5" }

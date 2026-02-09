@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Akriti  | Data Scientist",
-    description: "Coding Dreams, One Heartbeat at a Time. Explore the analytical magic of an IIT Mandi Data Scientist.",
+    description: "Coding Dreams, One Sparkle at a Time. Explore the analytical magic of an IIT Mandi Data Scientist.",
     url: "https://a-kriti.vercel.app",
     siteName: "Akriti's Portfolio",
     images: [

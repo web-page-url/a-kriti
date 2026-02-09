@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Pencil, Palette, Film, Camera, Mountain, Gem, TrendingUp, Scissors, CupSoda, Gamepad2, Compass, Plane, Heart } from "lucide-react";
+import { Pencil, Palette, Film, Camera, Mountain, Gem, TrendingUp, Scissors, CupSoda, Gamepad2, Compass, Plane, Star } from "lucide-react";
 
 export const Hobbies = () => {
     const hobbies = [
@@ -60,7 +60,7 @@ export const Hobbies = () => {
                     className="mt-24 text-center"
                 >
                     <div className="inline-flex items-center gap-3 px-8 py-4 bg-white/40 rounded-full border border-neon-pink/20">
-                        <Heart className="h-5 w-5 text-neon-pink fill-neon-pink animate-ping" />
+                        <Star className="h-5 w-5 text-neon-pink fill-neon-pink animate-ping" />
                         <span className="font-black text-xs uppercase tracking-[0.3em] text-berry/40">Life is a beautiful gradient</span>
                     </div>
                 </motion.div>

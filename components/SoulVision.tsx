@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Target, Heart, Eye, Rocket, Briefcase, TrendingUp } from "lucide-react";
+import { Target, Star, Eye, Rocket, Briefcase, TrendingUp } from "lucide-react";
 
 export const SoulVision = () => {
     const goals = [
@@ -71,7 +71,7 @@ export const SoulVision = () => {
                     >
                         <div className="space-y-4">
                             <div className="flex items-center gap-4">
-                                <Heart className="h-8 w-8 text-neon-pink animate-pulse" />
+                                <Star className="h-8 w-8 text-neon-pink animate-pulse" />
                                 <h3 className="font-serif text-3xl font-bold text-berry">Analytical Interests</h3>
                             </div>
                             <p className="text-berry/60 font-medium">Industries and domains that set my heart racing.</p>

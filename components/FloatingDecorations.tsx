@@ -1,16 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Heart, Sparkles, Stars, Zap, Circle } from "lucide-react";
+import { Star, Sparkles, Stars, Zap, Circle } from "lucide-react";
 
 const decorationItems = [
-    { Icon: Heart, size: 60, top: "10%", left: "5%", color: "text-neon-pink/15", rotate: 10, delay: 0 },
+    { Icon: Star, size: 60, top: "10%", left: "5%", color: "text-neon-pink/15", rotate: 10, delay: 0 },
     { Icon: Sparkles, size: 40, top: "20%", right: "8%", color: "text-sparkle-gold/20", rotate: -5, delay: 1 },
-    { Icon: Heart, size: 90, bottom: "15%", left: "10%", color: "text-neon-pink/10", rotate: -12, delay: 0.5 },
+    { Icon: Star, size: 90, bottom: "15%", left: "10%", color: "text-neon-pink/10", rotate: -12, delay: 0.5 },
     { Icon: Stars, size: 70, bottom: "30%", right: "5%", color: "text-neon-purple/15", rotate: 15, delay: 1.5 },
     { Icon: Zap, size: 30, top: "45%", left: "50%", color: "text-neon-pink/10", rotate: 0, delay: 2 },
     { Icon: Circle, size: 20, top: "60%", right: "30%", color: "text-neon-purple/20", rotate: 0, delay: 2.5 },
-    { Icon: Heart, size: 40, top: "5%", right: "40%", color: "text-sakura/20", rotate: 20, delay: 3 }
+    { Icon: Star, size: 40, top: "5%", right: "40%", color: "text-sakura/20", rotate: 20, delay: 3 }
 ];
 
 export const FloatingDecorations = () => {

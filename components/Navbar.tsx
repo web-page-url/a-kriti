@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, AnimatePresence } from "framer-motion";
-import { Download, Menu, X, Heart } from "lucide-react";
+import { Download, Menu, X, Star } from "lucide-react";
 import { useState } from "react";
 
 export const Navbar = () => {
@@ -43,7 +43,7 @@ export const Navbar = () => {
                     {navLinks.map((item) => (
                         <motion.a
                             key={item.name}
-                            whileHover={{ scale: 1.1, color: "#FF007F" }}
+                            whileHover={{ scale: 1.1, color: "#E11D74" }}
                             href={item.href}
                             className="text-berry/70 transition-all relative group"
                             aria-label={`Navigate to ${item.name}`}
@@ -104,7 +104,7 @@ export const Navbar = () => {
                                     className="font-serif text-4xl font-black text-berry tracking-tight relative group"
                                 >
                                     {item.name}
-                                    <Heart className="absolute -left-10 top-1/2 -translate-y-1/2 h-6 w-6 text-neon-pink opacity-0 group-hover:opacity-100 transition-all fill-neon-pink" />
+                                    <Star className="absolute -left-10 top-1/2 -translate-y-1/2 h-6 w-6 text-neon-pink opacity-0 group-hover:opacity-100 transition-all fill-neon-pink" />
                                 </motion.a>
                             ))}
                         </div>
