@@ -9,7 +9,7 @@ export const Education = () => {
             degree: "B.Tech in Data Science",
             school: "Indian Institute of Technology (IIT) Mandi",
             duration: "2019 - 2023",
-            grade: "7.41 CGPA",
+            // grade: "7.41 CGPA",
             details: "Specialized in advanced data structures, machine learning, and statistical modeling.",
             icon: <GraduationCap className="h-6 w-6 text-neon-pink" />,
             color: "from-neon-pink/10 to-sakura/10"
@@ -18,7 +18,7 @@ export const Education = () => {
             degree: "Dakshana Scholar",
             school: "JNV Lucknow",
             duration: "2017 - 2018",
-            grade: "IIT-JEE Excellence",
+            // grade: "IIT-JEE Excellence",
             details: "Ranked among the top scholars globally for free IIT-JEE coaching.",
             icon: <Award className="h-6 w-6 text-neon-purple" />,
             color: "from-neon-purple/10 to-lavender-mist/10"
@@ -27,7 +27,7 @@ export const Education = () => {
             degree: "High School",
             school: "JNV Maharajganj",
             duration: "Passed 2017",
-            grade: "10 CGPA",
+            // grade: "10 CGPA",
             details: "Consistent academic performer with a focus on science and mathematics.",
             icon: <BookOpen className="h-6 w-6 text-sakura" />,
             color: "from-sakura/10 to-rose-blush/10"
@@ -44,7 +44,7 @@ export const Education = () => {
                     className="text-center mb-24 space-y-4"
                 >
                     <h2 className="font-serif text-5xl font-black text-berry uppercase tracking-tighter">Academic <span className="gradient-text neon-text-pink italic">Journey</span></h2>
-                    <p className="text-neon-pink font-black uppercase tracking-[0.4em] text-sm">Where I bloomed and learned the math</p>
+                    <p className="text-neon-pink font-black uppercase tracking-[0.4em] text-sm">Where My Learning Journey Started!</p>
                 </motion.div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -72,9 +72,9 @@ export const Education = () => {
                                     <h3 className="font-serif text-2xl font-black text-berry leading-tight">{edu.degree}</h3>
                                     <p className="font-bold text-berry/60 italic">{edu.school}</p>
                                 </div>
-                                <div className="px-4 py-1.5 bg-white/60 rounded-full inline-block text-xs font-black text-neon-pink border border-neon-pink/10">
+                                { /* <div className="px-4 py-1.5 bg-white/60 rounded-full inline-block text-xs font-black text-neon-pink border border-neon-pink/10">
                                     {edu.grade}
-                                </div>
+                                </div> */ }
                                 <p className="text-sm font-medium text-berry/70 leading-relaxed font-sans">{edu.details}</p>
                             </div>
                         </motion.div>

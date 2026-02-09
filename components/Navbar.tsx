@@ -26,7 +26,7 @@ export const Navbar = () => {
             animate={{ y: 0 }}
             className="fixed top-0 z-50 w-full glass-pink border-b border-white/20"
         >
-            <nav className="container mx-auto flex h-20 items-center justify-between px-6 md:px-12">
+            <nav className="container mx-auto flex h-20 items-center justify-between px-6 md:px-20">
                 {/* Logo */}
                 <motion.div
                     whileHover={{ scale: 1.1 }}
@@ -39,7 +39,7 @@ export const Navbar = () => {
                 </motion.div>
 
                 {/* Desktop Links */}
-                <div className="hidden items-center gap-8 text-xl font-bold tracking-widest uppercase md:flex">
+                <div className="hidden items-center gap-6 text-lg font-bold tracking-widest uppercase md:flex">
                     {navLinks.map((item) => (
                         <motion.a
                             key={item.name}

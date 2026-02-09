@@ -64,6 +64,8 @@ export const WorkExperience = () => {
                                 </div>
                                 <ul className="space-y-4">
                                     {[
+                                        "Successfully collaborated with cross-functional teams across Japan, China, and India.",
+                                        "Ensured technical analysis was aligned with diverse regional business goals to drive growth.",
                                         "Led analysis of seasonal impacts on sales with high precision.",
                                         "Automated data updates using shell/batch scripts for efficiency.",
                                         "Mentored junior team members and bridged cross-functional gaps.",
