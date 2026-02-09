@@ -71,8 +71,8 @@ export const Achievements = () => {
                             <p className="font-black text-xs uppercase tracking-[0.4em] text-neon-pink mb-10">Other Notable Feats ✨</p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 {[
-                                    "Dakshana Scholar @ JNV Lucknow (Free IIT JEE Coaching!)",
-                                    "High School: JNV Maharajganj (10 CGPA Magic! 🌟)",
+                                    "AWS Athena Query Optimization Specialist",
+                                    "GenAI Strategy Framework Lead",
                                     "Completed Mountain Landslide Monitoring for HP 🏔️",
                                     "Finalist @ Myntra HackerRamp: WeForShe 🚀",
                                     "Selected for TechGig Grand Finale 2021!"

@@ -9,10 +9,14 @@ export const Navbar = () => {
 
     const navLinks = [
         { name: "About", href: "#about" },
+        { name: "Work", href: "#work-experience" },
+        { name: "Internships", href: "#internships" },
         { name: "Projects", href: "#projects" },
-        { name: "Vision", href: "#vision" },
+        { name: "Education", href: "#education" },
         { name: "Skills", href: "#skills" },
         { name: "Victories", href: "#achievements" },
+        { name: "Hobbies", href: "#hobbies" },
+        { name: "Friends", href: "#friends" },
         { name: "Connect", href: "#contact" },
     ];
 
@@ -35,7 +39,7 @@ export const Navbar = () => {
                 </motion.div>
 
                 {/* Desktop Links */}
-                <div className="hidden items-center gap-8 text-sm font-bold tracking-widest uppercase md:flex">
+                <div className="hidden items-center gap-5 text-[10px] font-bold tracking-widest uppercase md:flex">
                     {navLinks.map((item) => (
                         <motion.a
                             key={item.name}

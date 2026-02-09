@@ -2,16 +2,18 @@
 
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
-import { Experience } from "@/components/Experience";
+import { WorkExperience } from "@/components/WorkExperience";
+import { Internships } from "@/components/Internships";
 import { Skills } from "@/components/Skills";
 import { Projects } from "@/components/Projects";
 import { Achievements } from "@/components/Achievements";
-import { GlobalJourney } from "@/components/GlobalJourney";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { FloatingDecorations } from "@/components/FloatingDecorations";
-
 import { SoulVision } from "@/components/SoulVision";
+import { Education } from "@/components/Education";
+import { Hobbies } from "@/components/Hobbies";
+import { Friends } from "@/components/Friends";
 
 export default function Home() {
   return (
@@ -19,13 +21,22 @@ export default function Home() {
       <FloatingDecorations />
       <Navbar />
       <main className="relative z-10 pt-20">
-        <Hero />
-        <Experience />
-        <SoulVision />
-        <Skills />
+        <section id="about">
+          <Hero />
+          <SoulVision />
+        </section>
+
+        <WorkExperience />
+        <Internships />
         <Projects />
+
+        <Education />
+        <Skills />
         <Achievements />
-        <GlobalJourney />
+
+        <Hobbies />
+        <Friends />
+
         <Contact />
       </main>
       <Footer />
