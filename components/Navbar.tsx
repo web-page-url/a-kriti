@@ -26,7 +26,7 @@ export const Navbar = () => {
             animate={{ y: 0 }}
             className="fixed top-0 z-50 w-full glass-pink border-b border-white/20"
         >
-            <nav className="container mx-auto flex h-20 items-center justify-between px-6 md:px-20">
+            <nav className="w-full flex h-20 items-center justify-between px-6 md:px-10">
                 {/* Logo */}
                 <motion.div
                     whileHover={{ scale: 1.1 }}
@@ -39,7 +39,7 @@ export const Navbar = () => {
                 </motion.div>
 
                 {/* Desktop Links */}
-                <div className="hidden items-center gap-6 text-lg font-bold tracking-widest uppercase md:flex">
+                <div className="hidden items-center gap-10 text-base font-bold tracking-widest uppercase md:flex">
                     {navLinks.map((item) => (
                         <motion.a
                             key={item.name}
@@ -55,7 +55,7 @@ export const Navbar = () => {
                 </div>
 
                 {/* Desktop Resume Button */}
-                <motion.a
+                {/* <motion.a
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     href="/akriti-resume.pdf"
@@ -64,7 +64,7 @@ export const Navbar = () => {
                     aria-label="Download Resume"
                 >
                     Resume <Download className="h-4 w-4 group-hover:translate-y-1 transition-transform" />
-                </motion.a>
+                </motion.a> */}
 
                 {/* Mobile Menu Toggle */}
                 <button

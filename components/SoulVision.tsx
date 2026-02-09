@@ -18,8 +18,11 @@ export const SoulVision = () => {
     ];
 
     const interests = [
-        "Consulting", "Big Data & Distributed Computing",
-        "Retail Analytics", "Finance Insights",
+        "Consulting",
+        "Big Data",
+        "Artificial Intelligence",
+        "Retail Analytics",
+        "Finance Insights",
         "Fashion & Beauty Tech"
     ];
 

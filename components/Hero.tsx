@@ -35,7 +35,7 @@ export const Hero = () => {
                         </p>
                     </div>
                     <p className="max-w-xl text-2xl leading-relaxed font-semibold text-berry/80">
-                        I'm Akriti, currently working as a Data Scientist at Accenture Japan. I mix <span className="text-neon-pink underline decoration-wavy underline-offset-8">heavy math</span> with <span className="gradient-text font-black">vibrant design</span> to build soulful digital experiences.
+                        I'm Akriti, currently working as a Data Scientist at Accenture Japan. I thrive in <span className="text-neon-pink underline decoration-wavy underline-offset-8">collaborative, high-impact</span> environments where I leverage my technical expertise to drive <span className="gradient-text font-black">positive, large-scale</span> business results.
                     </p>
                     <div className="flex flex-wrap gap-6 justify-center lg:justify-start">
                         <motion.a
@@ -44,7 +44,7 @@ export const Hero = () => {
                             href="#contact"
                             className="bg-gradient-to-r from-neon-pink to-neon-purple text-white px-10 py-5 soft-rounded font-black text-lg neon-glow-pink transition-all flex items-center gap-3"
                         >
-                            Hire Me! <Rocket className="h-6 w-6" />
+                            Connect! <Rocket className="h-6 w-6" />
                         </motion.a>
                         <div className="flex items-center gap-6">
                             {[

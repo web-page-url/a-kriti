@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Heart, ChevronUp, Sparkles } from "lucide-react";
+import { Star, ChevronUp, Sparkles } from "lucide-react";
 
 export const Footer = () => {
     return (
@@ -19,7 +19,7 @@ export const Footer = () => {
                         whileHover={{ scale: 1.2, rotate: 15 }}
                         className="h-20 w-20 bg-white rounded-full flex items-center justify-center cute-shadow relative group"
                     >
-                        <Heart className="h-10 w-10 text-neon-pink fill-neon-pink animate-pulse" />
+                        <Star className="h-10 w-10 text-neon-pink fill-neon-pink animate-pulse" />
                         <Sparkles className="absolute -top-2 -right-2 h-6 w-6 text-sparkle-gold animate-twinkle" />
                     </motion.div>
                     <p className="font-serif text-4xl text-berry italic tracking-tight italic max-w-2xl leading-tight">

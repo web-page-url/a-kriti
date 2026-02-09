@@ -60,7 +60,7 @@ export const Achievement = () => {
                             ))}
                         </div>
 
-                        <motion.div
+                        {/* <motion.div
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
@@ -87,7 +87,7 @@ export const Achievement = () => {
                                     </motion.div>
                                 ))}
                             </div>
-                        </motion.div>
+                        </motion.div> */}
                     </div>
                 </div>
             </div>

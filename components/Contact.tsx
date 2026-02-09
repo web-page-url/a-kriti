@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Github, Coffee, Heart, Send, Globe, Phone } from "lucide-react";
+import { Mail, Linkedin, Github, Coffee, Heart, Send, Globe, Phone, Star } from "lucide-react";
 
 export const Contact = () => {
     return (
@@ -32,7 +32,7 @@ export const Contact = () => {
                     >
                         <div className="absolute inset-x-0 bottom-0 h-1 bg-white/20 transition-all group-hover:h-full group-hover:bg-white/10" />
                         <Mail className="h-7 w-7 transition-transform group-hover:scale-125" />
-                        Send Love Letter
+                        Send Mail
                         <Send className="h-5 w-5 opacity-0 -translate-x-10 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
                     </motion.a>
 
@@ -63,11 +63,17 @@ export const Contact = () => {
                     transition={{ delay: 0.5 }}
                     className="mt-32 p-12 bg-white/60 backdrop-blur-xl rounded-[4rem] border-4 border-white/60 inline-block cute-shadow animate-float relative"
                 >
-                    <Heart className="absolute -top-6 -left-6 h-12 w-12 text-neon-pink fill-neon-pink animate-pulse" />
-                    <p className="font-serif text-3xl font-bold mb-4 flex items-center gap-4 text-berry">
-                        Currently: <Coffee className="h-8 w-8 text-neon-pink animate-bounce" /> Brewed for hiring!
-                    </p>
-                    <p className="text-sm font-black uppercase tracking-[0.4em] text-neon-pink">Located in India (Open to relocation)</p>
+                    <Star className="absolute -top-6 -left-6 h-12 w-12 text-neon-pink fill-neon-pink animate-pulse" />
+                    <div className="space-y-2">
+                        <p className="font-bold text-berry leading-tight">
+                            <span className="font-serif text-3xl italic">Probability</span> <span className="text-sm uppercase tracking-[0.3em] text-berry/50 ml-2">of finding me in</span>
+                        </p>
+                        <p className="flex flex-wrap items-center justify-center gap-4">
+                            <span className="gradient-text neon-text-pink font-black text-6xl italic leading-none">Tokyo</span>
+                            <span className="text-3xl font-serif italic text-berry/30">is</span>
+                            <span className="text-8xl font-black text-neon-purple drop-shadow-sm leading-none animate-pulse">1</span>
+                        </p>
+                    </div>
                 </motion.div>
             </div>
         </section>
