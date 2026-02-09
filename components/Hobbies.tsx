@@ -1,15 +1,22 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Coffee, Camera, Music, Palmtree, Gamepad2, Heart } from "lucide-react";
+import { Pencil, Palette, Film, Camera, Mountain, Gem, TrendingUp, Scissors, CupSoda, Gamepad2, Compass, Plane, Heart } from "lucide-react";
 
 export const Hobbies = () => {
     const hobbies = [
-        { name: "Coffee Enthusiast", icon: <Coffee />, desc: "Fueling late-night code sessions with the perfect brew. ☕" },
-        { name: "Photography", icon: <Camera />, desc: "Capturing the soul of nature and pixel-perfect moments. 📸" },
-        { name: "Soulful Music", icon: <Music />, desc: "Lo-fi beats and indie vibes are my coding companions. 🎵" },
-        { name: "Travel & Explore", icon: <Palmtree />, desc: "Connecting dots across different cultures and scenery. ✈️" },
-        { name: "Casual Gaming", icon: <Gamepad2 />, desc: "Relaxing in virtual worlds to spark new creative ideas. 🎮" }
+        { name: "Creative Writing", icon: <Pencil />, desc: "Weaving stories and spilling soul onto digital paper. 📝" },
+        { name: "Painting", icon: <Palette />, desc: "Splashing colors to express what words cannot. 🎨" },
+        { name: "Cinematography", icon: <Film />, desc: "Capturing life's rhythm through a cinematic lens. 🎬" },
+        { name: "Photography", icon: <Camera />, desc: "Freezing magical moments in time forever. 📸" },
+        { name: "Hiking & Nature", icon: <Mountain />, desc: "Connecting with the earth on mountain peaks. 🏔️" },
+        { name: "Fashion & Jewelry", icon: <Gem />, desc: "Designing aesthetics that sparkle with personality. 💎" },
+        { name: "Business & Finance", icon: <TrendingUp />, desc: "Analyzing trends and building strategic empires. 📈" },
+        { name: "Crochet", icon: <Scissors />, desc: "Crafting warmth and love, one stitch at a time. 🧶" },
+        { name: "Drinking Tea", icon: <CupSoda />, desc: "Finding peace in a warm cup of soulful chai. ☕" },
+        { name: "Indoor & Outdoor Games", icon: <Gamepad2 />, desc: "Strategy and play, from boards to fields. 🎲" },
+        { name: "Spiritual Learning", icon: <Compass />, desc: "Exploring the inner universe and mindful wisdom. ✨" },
+        { name: "Traveling", icon: <Plane />, desc: "Collecting memories and cultures across the globe. ✈️" }
     ];
 
     return (

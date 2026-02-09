@@ -35,7 +35,7 @@ export const Hero = () => {
                         </p>
                     </div>
                     <p className="max-w-xl text-2xl leading-relaxed font-semibold text-berry/80">
-                        I'm Akriti, a Data Science grad from IIT Mandi. I mix <span className="text-neon-pink underline decoration-wavy underline-offset-8">heavy math</span> with <span className="gradient-text font-black">vibrant design</span> to build soulful digital experiences.
+                        I'm Akriti, currently working as a Data Scientist at Accenture Japan. I mix <span className="text-neon-pink underline decoration-wavy underline-offset-8">heavy math</span> with <span className="gradient-text font-black">vibrant design</span> to build soulful digital experiences.
                     </p>
                     <div className="flex flex-wrap gap-6 justify-center lg:justify-start">
                         <motion.a

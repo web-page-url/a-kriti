@@ -6,7 +6,7 @@ import { WorkExperience } from "@/components/WorkExperience";
 import { Internships } from "@/components/Internships";
 import { Skills } from "@/components/Skills";
 import { Projects } from "@/components/Projects";
-import { Achievements } from "@/components/Achievements";
+import { Achievement } from "@/components/Achievement";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 import { FloatingDecorations } from "@/components/FloatingDecorations";
@@ -32,7 +32,7 @@ export default function Home() {
 
         <Education />
         <Skills />
-        <Achievements />
+        <Achievement />
 
         <Hobbies />
         <Friends />

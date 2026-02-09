@@ -12,9 +12,9 @@ const mainAchievements = [
     { title: "Exam Invigilator", icon: <Activity className="text-neon-pink" />, desc: "Ensured smooth conduct of NDST 2019 for 200+ students. 📝", color: "bg-neon-pink/5" }
 ];
 
-export const Achievements = () => {
+export const Achievement = () => {
     return (
-        <section id="achievements" className="py-32 relative">
+        <section id="achievement" className="py-32 relative">
             <div className="container mx-auto px-6 md:px-12">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-20">
                     <motion.div

@@ -59,7 +59,7 @@ export const WorkExperience = () => {
                                         <p className="gradient-text font-black tracking-widest uppercase text-sm">Lead Analyst (EY24)</p>
                                     </div>
                                     <div className="px-6 py-2 bg-neon-pink/10 rounded-full border border-neon-pink/20 text-xs font-black text-neon-pink flex items-center gap-2">
-                                        <Heart className="h-3 w-3 fill-neon-pink" /> EY 2024
+                                        <Heart className="h-3 w-3 fill-neon-pink" /> FY 2025 - Current
                                     </div>
                                 </div>
                                 <ul className="space-y-4">
@@ -99,7 +99,7 @@ export const WorkExperience = () => {
                                         <p className="text-neon-purple font-black tracking-widest uppercase text-sm">Generative AI Researcher</p>
                                     </div>
                                     <div className="px-6 py-2 bg-neon-purple/10 rounded-full border border-neon-purple/20 text-xs font-black text-neon-purple flex items-center gap-2">
-                                        <Activity className="h-3 w-3" /> Strategic Research
+                                        <Activity className="h-3 w-3" /> FY 2024 - 2025
                                     </div>
                                 </div>
                                 <ul className="space-y-4">

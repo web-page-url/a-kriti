@@ -71,7 +71,7 @@ export const Projects = () => {
                     className="flex flex-col md:flex-row items-end justify-between mb-24 gap-8"
                 >
                     <div className="space-y-4">
-                        <h2 className="font-serif text-5xl font-black text-berry text-center md:text-left">Soul-Taking <span className="gradient-text neon-text-pink">Artifacts</span></h2>
+                        <h2 className="font-serif text-5xl font-black text-berry text-center md:text-left">College<span className="gradient-text neon-text-pink">  Projects (2019-2023)</span></h2>
                         <p className="text-neon-pink font-black uppercase tracking-[0.2em] text-sm">Where code meets pure creativity</p>
                     </div>
                     <div className="hidden lg:block h-px flex-grow bg-neon-pink/20 mx-12 mb-4"></div>
