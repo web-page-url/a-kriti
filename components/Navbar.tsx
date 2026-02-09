@@ -22,11 +22,11 @@ export const Navbar = () => {
 
     return (
         <motion.header
-            initial={{ y: -100 }}
-            animate={{ y: 0 }}
-            className="fixed top-0 z-50 w-full glass-pink border-b border-white/20"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            className="fixed top-0 z-[999] w-full glass-pink border-b border-white/20"
         >
-            <nav className="w-full flex h-20 items-center justify-between px-6 md:px-10">
+            <nav className="container mx-auto flex h-20 items-center justify-between px-4 md:px-10">
                 {/* Logo */}
                 <motion.div
                     whileHover={{ scale: 1.1 }}
@@ -69,7 +69,7 @@ export const Navbar = () => {
                 {/* Mobile Menu Toggle */}
                 <button
                     onClick={() => setIsOpen(!isOpen)}
-                    className="flex md:hidden z-[60] p-2 text-berry hover:text-neon-pink transition-colors"
+                    className="flex md:hidden z-[10000] p-2 text-berry hover:text-neon-pink transition-colors"
                     aria-label={isOpen ? "Close menu" : "Open menu"}
                 >
                     {isOpen ? <X className="h-8 w-8" /> : <Menu className="h-8 w-8" />}
@@ -84,24 +84,24 @@ export const Navbar = () => {
                         animate={{ opacity: 1, x: 0 }}
                         exit={{ opacity: 0, x: "100%" }}
                         transition={{ type: "spring", damping: 25, stiffness: 200 }}
-                        className="fixed inset-0 z-50 bg-petal-pink flex flex-col items-center justify-center gap-10 p-10 md:hidden overflow-hidden"
+                        className="fixed inset-0 z-[9999] bg-white/80 backdrop-blur-2xl flex flex-col items-center justify-start gap-12 p-10 pt-32 pb-40 md:hidden overflow-y-auto"
                     >
                         {/* Decorative background for mobile menu */}
                         <div className="absolute top-[-10%] right-[-10%] w-60 h-60 bg-sakura/10 rounded-full blur-3xl animate-pulse" />
                         <div className="absolute bottom-[-10%] left-[-10%] w-60 h-60 bg-neon-purple/10 rounded-full blur-3xl animate-pulse delay-700" />
 
-                        <div className="flex flex-col items-center gap-8">
+                        <div className="flex flex-col items-center gap-6 w-full">
                             {navLinks.map((item, idx) => (
                                 <motion.a
                                     key={item.name}
                                     initial={{ opacity: 0, y: 20 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ delay: 0.1 * idx }}
-                                    whileHover={{ scale: 1.2, color: "#FF007F" }}
+                                    whileHover={{ scale: 1.2, color: "#E11D74" }}
                                     whileTap={{ scale: 0.9 }}
                                     href={item.href}
                                     onClick={() => setIsOpen(false)}
-                                    className="font-serif text-4xl font-black text-berry tracking-tight relative group"
+                                    className="font-serif text-3xl font-black text-berry tracking-tight relative group text-center"
                                 >
                                     {item.name}
                                     <Star className="absolute -left-10 top-1/2 -translate-y-1/2 h-6 w-6 text-neon-pink opacity-0 group-hover:opacity-100 transition-all fill-neon-pink" />
@@ -109,7 +109,7 @@ export const Navbar = () => {
                             ))}
                         </div>
 
-                        <motion.a
+                        {/* <motion.a
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.6 }}
@@ -119,9 +119,9 @@ export const Navbar = () => {
                             className="group flex items-center gap-3 bg-gradient-to-r from-neon-pink to-sakura px-10 py-5 font-black text-white soft-rounded neon-glow-pink shadow-lg"
                         >
                             Download Resume <Download className="h-5 w-5" />
-                        </motion.a>
+                        </motion.a> */}
 
-                        <div className="absolute bottom-10 flex flex-col items-center gap-2">
+                        <div className="mt-auto pt-10 flex flex-col items-center gap-2">
                             <p className="text-xs font-black uppercase tracking-[0.3em] text-berry/30">Made with Soul ✨</p>
                         </div>
                     </motion.div>
